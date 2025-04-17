@@ -93,7 +93,7 @@ from_unit = st.selectbox("⚖From", list(categories[category].keys()))
 to_unit = st.selectbox("⏳To", list(categories[category].keys()))
 
 # Get user input value
-value = st.number_input("Enter value:", min_value=0.0, format="%.2f")
+value = st.number_input("📝Enter value:", min_value=0.0, format="%.2f")
 
 # Conversion logic
 def convert(value, from_unit, to_unit, category):
