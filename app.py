@@ -86,10 +86,10 @@ categories = {
 }
 
 # Select unit category
-category = st.selectbox("🗞Select a category", list(categories.keys()))
+category = st.selectbox("📏Select a category", list(categories.keys()))
 
 # Select from and to units
-from_unit = st.selectbox("⚖From", list(categories[category].keys()))
+from_unit = st.selectbox("🎰From", list(categories[category].keys()))
 to_unit = st.selectbox("⏳To", list(categories[category].keys()))
 
 # Get user input value
